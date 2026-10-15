@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Figtree,system-ui,sans-serif" role="img" aria-label="Payment flow: frontend sends an order to the backend, the backend calls Midtrans Charge API, Midtrans returns an HTTP notification, and the backend updates the database">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#52e5ff"/></marker></defs>
+<rect width="640" height="440" fill="#051367"/>
+<g font-size="15" font-weight="700" text-anchor="middle">
+<rect x="24" y="60" width="150" height="64" rx="12" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="99" y="98" fill="#0f1230">Frontend</text>
+<rect x="245" y="60" width="150" height="64" rx="12" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="320" y="98" fill="#0f1230">Your backend</text>
+<rect x="466" y="60" width="150" height="64" rx="12" fill="#2d31fa" stroke="#52e5ff" stroke-width="2"/><text x="541" y="98" fill="#fff">Midtrans</text>
+<rect x="245" y="270" width="150" height="56" rx="12" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="320" y="304" fill="#0f1230">Database</text>
+</g>
+<g stroke="#52e5ff" stroke-width="2.5" fill="none" marker-end="url(#a)"><path d="M176 92h66"/><path d="M397 92h66"/><path d="M541 126v70H380V128"/><path d="M280 126v140"/></g>
+<g font-size="12" fill="#cfd6ff" text-anchor="middle"><text x="209" y="82">Order</text><text x="430" y="82">Charge API</text><text x="460" y="188">HTTP Notification (webhook)</text></g>
+<text x="292" y="236" font-size="12" fill="#cfd6ff">Status mapping</text>
+<g font-size="12" font-weight="600" text-anchor="middle" fill="#0f1230">
+<rect x="36" y="372" width="96" height="30" rx="15" fill="#fff"/><text x="84" y="392">Charge</text>
+<rect x="144" y="372" width="96" height="30" rx="15" fill="#fff"/><text x="192" y="392">Get Status</text>
+<rect x="252" y="372" width="136" height="30" rx="15" fill="#fff"/><text x="320" y="392">Notification</text>
+<rect x="400" y="372" width="96" height="30" rx="15" fill="#fff"/><text x="448" y="392">Cancel</text>
+<rect x="508" y="372" width="96" height="30" rx="15" fill="#fff"/><text x="556" y="392">Refund</text>
+</g>
+</svg>

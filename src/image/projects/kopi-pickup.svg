@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Figtree,system-ui,sans-serif" role="img" aria-label="Self-pickup order flow with the Pilih Waktu step highlighted and a phone screen showing time slots">
+<rect width="640" height="440" fill="#051367"/>
+<g font-size="14" font-weight="600" text-anchor="middle">
+<rect x="30" y="36" width="130" height="44" rx="10" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="95" y="63" fill="#0f1230">Pilih Outlet</text>
+<rect x="180" y="36" width="130" height="44" rx="10" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="245" y="63" fill="#0f1230">Pilih Menu</text>
+<rect x="330" y="36" width="130" height="44" rx="10" fill="#ff7300"/><text x="395" y="63" fill="#fff">Pilih Waktu</text>
+<rect x="480" y="36" width="130" height="44" rx="10" fill="#fff" stroke="#c4c8f5" stroke-width="2"/><text x="545" y="63" fill="#0f1230">Bayar</text>
+<text x="395" y="106" fill="#ff7300" font-size="13">Banyak yang berhenti di sini</text>
+</g>
+<g stroke="#52e5ff" stroke-width="2"><path d="M162 58h16M312 58h16M462 58h16"/></g>
+<rect x="205" y="126" width="230" height="290" rx="28" fill="#fff" stroke="#0f1230" stroke-width="3"/>
+<text x="320" y="170" text-anchor="middle" font-size="16" font-weight="700" fill="#0f1230">Pilih Waktu</text>
+<g font-size="14" fill="#0f1230">
+<rect x="225" y="190" width="190" height="40" rx="8" fill="#eef0ff" stroke="#2d31fa" stroke-width="2"/><text x="239" y="215">Secepatnya</text><text x="401" y="215" text-anchor="end">10 mnt</text>
+<rect x="225" y="240" width="190" height="40" rx="8" fill="#fff" stroke="#d9dcee" stroke-width="2"/><text x="239" y="265">10.45</text>
+<rect x="225" y="290" width="190" height="40" rx="8" fill="#fff" stroke="#d9dcee" stroke-width="2"/><text x="239" y="315">11.15</text>
+</g>
+<rect x="225" y="352" width="190" height="42" rx="10" fill="#2d31fa"/><text x="320" y="378" text-anchor="middle" font-size="15" font-weight="600" fill="#fff">Pesan</text>
+<g font-size="13" fill="#cfd6ff"><text x="30" y="218">Estimasi waktu statis,</text><text x="30" y="236">tidak mengikuti antrean</text><text x="458" y="218">Tidak ada notifikasi</text><text x="458" y="236">saat pesanan terlambat</text></g>
+</svg>
